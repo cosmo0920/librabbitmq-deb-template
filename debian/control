@@ -17,7 +17,8 @@ Description: AMQP client library written in C
 Package: librabbitmq1
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libssl (>= 1.0.0)
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Description: developer's libraries for librabbitmq
 
 Package: amqp-tools
