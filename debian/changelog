@@ -1,3 +1,9 @@
+librabbitmq (0.5.0-ppa11) precise; urgency=medium
+
+  * Tidy up control.
+
+ -- Hiroshi HATAKE <cosmo0920.oucc@gmail.com>  Wed, 15 Jul 2015 01:47:28 +0900
+
 librabbitmq (0.5.0-ppa10) precise; urgency=medium
 
   * Remove libssl version constraint.
