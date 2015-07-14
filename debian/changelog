@@ -1,3 +1,9 @@
+librabbitmq (0.5.0-ppa5) precise; urgency=medium
+
+  * Specify rules
+
+ -- Hiroshi HATAKE <cosmo0920.oucc@gmail.com>  Wed, 15 Jul 2015 00:34:16 +0900
+
 librabbitmq (0.5.0-ppa4) precise; urgency=medium
 
   * Use misc depends/pre-depends
