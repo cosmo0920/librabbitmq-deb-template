@@ -1,3 +1,9 @@
+librabbitmq (0.5.0-ppa6) precise; urgency=medium
+
+  * Add missing libssl-dev build dependency
+
+ -- Hiroshi Hatake <cosmo0920.oucc@gmail.com>  Wed, 15 Jul 2015 00:41:41 +0900
+
 librabbitmq (0.5.0-ppa5) precise; urgency=medium
 
   * Specify rules
