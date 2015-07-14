@@ -1,4 +1,4 @@
-librabbitmq (0.4.1-ppa1) precise; urgency=medium
+librabbitmq (0.5.0-ppa1) precise; urgency=medium
 
   * Initial release for PPA.
 
