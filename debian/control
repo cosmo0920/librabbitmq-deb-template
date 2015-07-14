@@ -18,3 +18,9 @@ Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: developer's libraries for librabbitmq
+
+Package: amqp-tools
+Section: net
+Architecture: any
+Depends: librabbitmq1 (= ${binary:Version}),${shlibs:Depends}
+Description: Command-line utilities for interacting with AMQP servers
