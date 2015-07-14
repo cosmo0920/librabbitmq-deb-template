@@ -5,4 +5,11 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@  --with autotools-dev
+	dh $@  --buildsystem=makefile
+
+build: build-stamp
+build-stamp:
+	dh_autoreconf
+	dh_auto_configure -- --enable-static
+	dh build
+	touch build-stamp
