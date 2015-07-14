@@ -1,7 +1,9 @@
 #!/bin/bash
 
-wget https://github.com/alanxz/rabbitmq-c/releases/download/v0.5.0/rabbitmq-c-0.5.0.tar.gz
+VERSION="0.5.0"
 
-tar zxvf rabbitmq-c-0.5.0.tar.gz
-cp -R debian rabbitmq-c-0.5.0
-cp rabbitmq-c-0.5.0.tar.gz librabbitmq_0.5.0.orig.tar.gz
+wget https://github.com/alanxz/rabbitmq-c/releases/download/v${VERSION}/rabbitmq-c-${VERSION}.tar.gz
+
+tar zxvf rabbitmq-c-${VERSION}.tar.gz
+cp -R debian rabbitmq-c-${VERSION}
+cp rabbitmq-c-${VERSION}.tar.gz librabbitmq_${VERSION}.orig.tar.gz
