@@ -10,7 +10,8 @@ Vcs-Browser: https://github.com/alanxz/rabbitmq-c
 Package: librabbitmq-dev
 Section: libdevel
 Architecture: any
-Depends: librabbitmq1 (= ${binary:Version}), libc-dev
+Depends: librabbitmq1 (= ${binary:Version}), ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Description: AMQP client library written in C
 
 Package: librabbitmq1
