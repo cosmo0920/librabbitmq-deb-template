@@ -1,7 +1,7 @@
 Source: librabbitmq
 Priority: optional
 Maintainer: Hiroshi HATAKE <cosmo0920.oucc@gmail.com>
-Build-Depends: debhelper (>= 7), autoconf, automake, cmake, libtool, python (>= 2.5), python-simplejson, libpopt-dev, xmlto, libssl-dev (>= 1.0.0)
+Build-Depends: debhelper (>= 7), autoconf, automake, cmake, libtool, python (>= 2.5), python-simplejson, libpopt-dev, xmlto, libssl-dev
 Standards-Version: 3.8.1
 Section: libs
 Homepage: http://www.rabbitmq.com/
