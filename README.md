@@ -8,5 +8,6 @@ Debian rules for librabbitmq 0.5.0
 
 ```bash
 $ ./GET
-$ ppa:<LP username:pparepository name> librabbitmq_0.5.0-ppa<revision>_source.changes
+$ debuild -S -sa
+$ dput ppa:<LP username:pparepository name> librabbitmq_0.5.0-ppa<revision>_source.changes
 ```
